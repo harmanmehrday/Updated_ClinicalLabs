@@ -1,0 +1,6 @@
+C:\Users\HARMAN\Documents\Visual Studio 2013\Projects\Updated_ClinicalLabs\Updated_ClinicalLabs\obj\Debug\Updated_ClinicalLabs.csprojResolveAssemblyReference.cache
+C:\Users\HARMAN\Documents\Visual Studio 2013\Projects\Updated_ClinicalLabs\Updated_ClinicalLabs\bin\Updated_ClinicalLabs.dll.config
+C:\Users\HARMAN\Documents\Visual Studio 2013\Projects\Updated_ClinicalLabs\Updated_ClinicalLabs\bin\Updated_ClinicalLabs.dll
+C:\Users\HARMAN\Documents\Visual Studio 2013\Projects\Updated_ClinicalLabs\Updated_ClinicalLabs\bin\Updated_ClinicalLabs.pdb
+C:\Users\HARMAN\Documents\Visual Studio 2013\Projects\Updated_ClinicalLabs\Updated_ClinicalLabs\obj\Debug\Updated_ClinicalLabs.dll
+C:\Users\HARMAN\Documents\Visual Studio 2013\Projects\Updated_ClinicalLabs\Updated_ClinicalLabs\obj\Debug\Updated_ClinicalLabs.pdb
