@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Appointment</title>
+   <meta charset="utf-8">
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+
+<body style="cursor: pointer;">
+   <!--navbar start-->
+   <nav class="navbar navbar-expand-sm my-nav sticky-top large">
+      <div class="container my-navbar">
+      <a href="index.html" class="navbar-brand"><font style="color:#3c97e8;">Clinical</font><font style="color:#69cb6a">Lab.</font></a>
+      <ul class="navbar-nav">
+         <li class="nav-item"><a href="index.html" class="nav-link active"><i class="fa fa-home"></i>&nbsp;HOME</a></li>
+         <li class="nav-item"><a href="services.html" class="nav-link"><i class="fa "></i>&nbsp;SERVICES</a></li>
+         <li class="nav-item"><a href="sam.html" class="nav-link"><i class="fa "></i>&nbsp;SAMPLE PICKUP</a></li>
+         <li class="nav-item"><a href="enquire.html" class="nav-link"><i class="fa "></i>&nbsp;ENQUIRE</a></li>
+         <li class="nav-item"><a href="appointment.html" class="nav-link"><i class="fa "></i>&nbsp;APPOINTMENT</a></li>
+      </ul>
+       </div>       
+   </nav>
+   <!--navbar end-->
+   <!--banner start-->
+   <div class="banner">
+         <img src="images/appointment.jpg">
+         <div class="centered">
+
+            <h1 class="text-center">Make an Appointment</h1><p class="text-center" style="font-size: 22px;">Make appointment online to save your precesious time.<br>> Clinical Lab\Appointment</p>
+       <!--     <div class="btn-group" role="group" aria-lable="Login / Signup">
+                 <button type="button" class="btn login_btn1"><i class="fa fa-user"></i>&nbsp;Login</button>
+                 <button type="button" class="btn login_btn2"><i class="fa fa-sign-in-alt"></i>&nbsp;SignUp</button>
+         </div>-->
+         </div>
+   </div>
+   <!--banner end-->
+   <!--appointment start-->
+       <div class="container-fluid hp_appointment" style="margin-top: 00px;">
+         <div class="row">
+             <div class="col-xl-6 col-lg-6 col-md-6 col-xs-10 mx-auto hp_apt">
+               <h2>Make an Appointment</h2>
+             </div>
+             <div class="col-xl-6 col-lg-6 col-md-6">
+               <button class="btn apt_btn"><a href="appointment.html" style="color:white;text-decoration: none;"><i class="fa fa-calendar-alt"></i>&nbsp;Make Appointment</a></button>
+             </div>
+         </div>
+    </div>     
+   <!--appointment end--><br><br>
+    <!--contact info start-->
+  <div class="container-fluid my-enq">
+    <h3 style="margin-left: 55px;">Contact Information:<hr/></h3>
+
+       <div class="row" >
+             <div class="col-md-4">
+              <p class="text-center"><i class="fa fa-location-arrow"></i>&nbsp;Adampur Doaba, 
+District Jalandhar, 144102</p>
+             </div>
+             <div class="col-md-4">
+              <p class="text-center"><a href="tel:82-84-088-141"  data-rel="external"><i class="fa fa-phone">&nbsp;</i>+918284088141</a></p>
+             </div>
+             <div class="col-md-4">
+              <p class="text-center"><a href="mailto:harman.apj@gmail.com"><i class="fa fa-envelope"></i>&nbsp;info@clinicallab.com</a></p>
+             </div>
+       </div>
+  </div>
+  <!--contact info end-->
+  <!--forms start-->
+  <div class="my-container" style="margin-top: 60px; "> 
+  <form action="post/get">
+        <div class="form-group">
+          <label for="f-name-enq">First Name:</label>
+              <input type="text" class="form-control" id="f-name-app" required>
+        </div>
+        <div class="form-group">
+          <label for="l-name-enq">Last Name:</label>
+              <input type="text" class="form-control" id="l-name-app" required>
+        </div>
+        <div class="form-group">
+          <label for="mail-enq">E-Mail:</label>
+              <input type="email" class="form-control" id="mail-app" required>
+        </div>
+        <div class="form-group">
+          <label for="mail-enq">Phone:</label>
+              <input type="number" class="form-control" id="number-app" min="10" max="10"/>
+        </div>
+        <div class="form-group">
+          <label for="mail-enq">Timming:</label><br>
+              <input type="radio" name="gender" value="Morning" id="app-timming" checked> Morning | 07:00 AM - 12:00 PM
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <input type="radio" name="gender" value="Evening" id="app-timming"> Evening | 03:00 PM - 08:00 PM
+        </div>
+        <div class="form-group">
+          <label for="mail-enq">Payment Details (Rs. 50 will be charged*):</label><br>
+              <input type="number" class="form-control" id="card-number-app" min="16" max="16" placeholder="Card Number here...." required /><br>
+              <input type="number" class="form-control" id="cvv-number-app" min="3" max="3" placeholder="CVV Number here...." required /><br>
+              <input type="text" class="form-control" id="name-card-app" placeholder="Name on card here...." / required>
+        </div>
+        
+        <button type="submit" class="btn btn-success" id="app-submit"><i class="fa fa-calendar-alt"></i>&nbsp;Make Appointment...</button>
+  </form>
+    </div>
+  <!--forms end-->
+   <!--footer start-->
+    <footer>
+   	<div class="container-fluid">
+   		<div class="row" style="margin-top: 70px;">
+   			<div class="col-md-3" style="background-color: #314355;">
+   				<h5 style="color: white;margin-top: 30px;" class="text-center">CLINICAL LAB.</h5>
+   				<p style="color: white" class="text-justify">When selecting a Diagnostic Centre, we believe that the way we treat our patients is just as important as the accuracy of the tests and the qualifications of our staff.</p>
+   			</div>
+   			<div class="col-md-3"  style="background-color: #314355; ">
+   				<h5 style="color: white;margin-top: 30px;" class="text-center">NAVIGATION</h5>
+   				<ul style="color: white; list-style: none; margin-left: 90px;">
+						<li><a href="index.html" class="footer-links"><i class="fa fa-check-circle"></i> Home</a></li>
+						<li><a href="services.html" class="footer-links"><i class="fa fa-check-circle"></i> Services</a></li>
+						<li><a href="sam.html" class="footer-links"><i class="fa fa-check-circle"></i> Sample Pickup</li>
+						<li><a href="enquire.html" class="footer-links"><i class="fa fa-check-circle"></i> Enquire</a></li>
+						<li><a href="contact.html" class="footer-links"><i class="fa fa-check-circle"></i> Contact Us</a></li>
+					</ul>
+   			</div>
+   			<div class="col-md-3"  style="background-color:#314355; ">
+   				<h5 style="color: white;margin-top: 30px;" class="text-center">TEST AVAILABLE</h5>
+   				<ul style="color: white; list-style: none;margin-left: 80px;">
+						<li><a href="services.html" class="footer-links"><i class="fa fa-check-circle"></i> Haematology</a></li>
+						<li><a href="services.html" class="footer-links"><i class="fa fa-check-circle"></i> Serology</a></li>
+						<li><a href="services.html" class="footer-links"><i class="fa fa-check-circle"></i> Bio Chemistry</a></li>
+						<li><a href="services.html" class="footer-links"><i class="fa fa-check-circle"></i> X-Ray</a></li>
+						<li><a href="services.html" class="footer-links"><i class="fa fa-check-circle"></i> Others</a></li>
+						<li><a href="enquire.html" class="footer-links"><i class="fa fa-check-circle"></i> Help Desk</a></li>
+					</ul>
+   			</div>
+   		    <div class="col-md-3"  style="background-color:#314355; ">
+                  <h5 style="color: white;margin-top: 30px;" class="text-center">LOCATE US</h5>
+                  <p><a style="color: white" href="enquire.html"><i class="fa fa-search-location"></i>&nbsp;Adampur, Jalandhar 144102</a></p>
+                  <p><a style="color: white" href="mailto:harman.apj@gmail.com"><i class="fa fa-envelope"></i>&nbsp;info@clinicallab.com</a></p>
+                  <p><a style="color: white" href="tel:82-84-088-141"  data-rel="external"><i class="fa fa-phone">&nbsp;+918284088141</i></a></p>
+                  <p><a style="color: white" href="tel:75-26-903-231"  data-rel="external"><i class="fa fa-phone">&nbsp;+917526903231</i></a></p>
+   		    </div>
+   		</div>
+   	</div>
+   	<div class="cop_harman" style="background-color:#2b3b4b; height: 60px; ">
+          <p style="color: white; text-align: center; line-height: 60px;"> Copyright &copy; Harmanpreet Singh | 2018 All rights reserved.</p>
+   	</div>		
+   </footer>
+    <!--footer end-->
+
+
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/popper.js"></script>
+<script type="text/javascript" src="js/wow.min.js"></script>
+<script type="text/javascript">
+  $(document).on("Scroll",function(){
+
+      if($(document).ScrollTop()>100){
+        $("nav").removeClass("large").addClass("small");
+      }else{
+        $("nav").removeClass("small").addClass("large");
+      }
+  });
+</script>
+</body>
+</html>
